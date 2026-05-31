@@ -5,15 +5,17 @@ def main():
     fan2 = Fan(Fan.MEDIUM, 5, "blue", False)
 
     # display fan1 details
-    print("Fan1_Speed:", fan1.get_speed(),
-          "Radius:", fan1.get_radius(),
-          "Color:", fan1.get_color(),
+    print("Fan 1:\n"
+          "Speed:", fan1.get_speed(), "\n"
+          "Radius:", fan1.get_radius(), "\n"
+          "Color:", fan1.get_color(), "\n"
           "On:", fan1.is_on())
 
     # display fan2 details
-    print("Fan2_Speed:", fan2.get_speed(),
-          "Radius:", fan2.get_radius(),
-          "Color:", fan2.get_color(),
+    print("\nFan 2: \n"
+          "Speed:", fan2.get_speed(), "\n"
+          "Radius:", fan2.get_radius(), "\n"
+          "Color:", fan2.get_color(), "\n"
           "On:", fan2.is_on())
 
 if __name__ == "__main__":
