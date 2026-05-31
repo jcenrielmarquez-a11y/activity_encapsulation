@@ -11,7 +11,7 @@ def main():
           "On:", fan1.is_on())
 
     # display fan2 details
-    print("Fan2 -> Speed:", fan2.get_speed(),
+    print("Fan2_Speed:", fan2.get_speed(),
           "Radius:", fan2.get_radius(),
           "Color:", fan2.get_color(),
           "On:", fan2.is_on())
