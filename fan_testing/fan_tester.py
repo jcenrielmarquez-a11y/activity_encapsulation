@@ -15,3 +15,6 @@ def main():
           "Radius:", fan2.get_radius(),
           "Color:", fan2.get_color(),
           "On:", fan2.is_on())
+
+if __name__ == "__main__":
+    main()
