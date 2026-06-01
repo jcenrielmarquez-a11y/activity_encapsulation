@@ -4,3 +4,8 @@ def main():
     name = input("Enter your pet's name: ")
     animal_type = input("Enter your pet's type: ")
     age = int(input("Enter your pet's age: "))
+
+    pet = Pet()
+    pet.set_name(name)
+    pet.set_animal_type(animal_type)
+    pet.set_age(age)
