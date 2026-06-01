@@ -12,3 +12,8 @@ def main():
     for i in range(5):
         car.accelerate()
         print(car.get_speed())
+
+    print("\nBraking:")
+    for i in range(5):
+        car.brake()
+        print(car.get_speed())
