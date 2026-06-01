@@ -7,3 +7,8 @@ def main():
     car = Car(year_model, make)
 
     print(f"\nYear Model: {car.get_make()}, Make: {car.get_year_model()}\n")
+
+    print("Accelerating:")
+    for i in range(5):
+        car.accelerate()
+        print(car.get_speed())
