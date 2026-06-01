@@ -4,7 +4,7 @@ class Pet:
         self.__animal_type = animal_type
         self.__age = age
 
-    #setters
+    # setters
     def set_name(self, name):
         self.__name = name
 
@@ -16,3 +16,13 @@ class Pet:
             self.__age = age
         else:
             print("Invalid age. Must be non-negative.")
+
+    # getters
+    def get_name(self):
+        return self.__name
+
+    def get_animal_type(self):
+        return self.__animal_type
+
+    def get_age(self):
+        return self.__age
