@@ -4,6 +4,9 @@ class Car:
         self.__make = make
         self.__speed = 0
 
+    def __str__(self):
+        return f"Year Model: {self.__year_model}, Make: {self.__make}"
+
     def accelerate(self):
         self.__speed += 5
 
@@ -15,7 +18,9 @@ class Car:
 
     def get_speed(self):
         return self.__speed
+
     def get_year_model(self):
         return self.__year_model
+
     def get_make(self):
         return self.__make
